@@ -34,10 +34,10 @@ def get_value(val, my_dict):
     return next((key for key, value in my_dict.items() if value == val), val)
 
 
-@st.cache
-def load_model(model_file):
-    loaded_model = joblib.load(open(os.path.join(model_file), "rb"))
-    return loaded_model
+#@st.cache
+#def load_model(model_file):
+    #loaded_model = joblib.load(open(os.path.join(model_file), "rb"))
+   # return loaded_model
 
 
 def run_ml_app():

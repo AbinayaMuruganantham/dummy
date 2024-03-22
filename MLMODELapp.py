@@ -42,7 +42,7 @@ def get_value(val, my_dict):
 
 def run_ml_app():
     st.subheader("Machine Learning Section")
-    loaded_model = load_model("diabetes_model.pkl")
+    #loaded_model = load_model("diabetes_model.pkl")
 
     with st.expander("Attributes Info"):
         st.markdown(attrib_info, unsafe_allow_html=True)

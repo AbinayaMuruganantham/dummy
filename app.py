@@ -7,7 +7,7 @@ import webbrowser
 
 html_temp = """
     <div style="background-color:#35858B;padding:10px;border-radius:10px">
-    <h1 style="color:#AEFEFF;text-align:center;">GLUCOTRACK: AI-POWERED DIABETES RISK PREDICTION ON IOT</h1>
+    <h1 style="color:#AEFEFF;text-align:center;">DIABETANET: AN INTELLIGENT ECOSYSTEM FOR PREDICTIVE DIABETES MONITORING VIA CLOUD</h1>
     <h2 style="color:#064663;text-align:center;"> </h2>
     </div>
     """
